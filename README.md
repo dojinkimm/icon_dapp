@@ -7,7 +7,7 @@
 > Day 2 - DApp 종류에 관한 미디움 글 읽기
 > <br/>https://medium.com/b-ock-chain/dapp%EC%9D%98-%EC%A2%85%EB%A5%98%EC%97%90-%EA%B4%80%ED%95%98%EC%97%AC-8663c8922cd2
 
-> <br/>https://steemit.com/kr/@twinbraid/cryptokitties-4
+> https://steemit.com/kr/@twinbraid/cryptokitties-4
 
 > Day 3 - WebApp VS WebDApp
 > <br/>https://medium.com/b-ock-chain/web-app-%EA%B3%BC-web-dapp-5df00de9206f
@@ -17,6 +17,7 @@
 
 > Day 5 - ICON JSON-RPC API
 <br/>https://www.icondev.io/docs/icon-json-rpc-v3<br/>
+
 > Day 6 - ICON architecture
 
 > Icon 웹사이트 - https://www.icondev.io
