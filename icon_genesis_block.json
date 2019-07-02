@@ -1,0 +1,22 @@
+{
+    "jsonrpc": "2.0", 
+    "result": {
+        "version": "0.1a", 
+        "prev_block_hash": "", 
+        "merkle_tree_root_hash": "5aa2453a84ba2fb1e3394b9e3471f5dcebc6225fc311a97ca505728153b9d246", 
+        "time_stamp": 0, 
+        "confirmed_transaction_list": [{
+            "accounts": [{"name": "god", 
+                "address": "hx54f7853dc6481b670caf69c5a27c7c8fe5be8269", 
+                "balance": "0x2961fff8ca4a62327800000"}, 
+                {"name": "treasury", 
+                "address": "hx1000000000000000000000000000000000000000", 
+                "balance": "0x0"}], 
+        "message": "A rhizome has no beginning or end; it is always in the middle, between things, interbeing, intermezzo. The tree is filiation, but the rhizome is alliance, uniquely alliance. The tree imposes the verb \"to be\" but the fabric of the rhizome is the conjunction, \"and ... and ...and...\"This conjunction carries enough force to shake and uproot the verb \"to be.\" Where are you going? Where are you coming from? What are you heading for? These are totally useless questions.\n\n - Mille Plateaux, Gilles Deleuze & Felix Guattari\n\n\"Hyperconnect the world\""}], 
+        "block_hash": "cf43b3fd45981431a0e64f79d07bfcf703e064b73b802c5f32834eec72142190", 
+        "height": 0, 
+        "peer_id": "", 
+        "signature": "", 
+        "next_leader": ""}, 
+    "id": 1234
+}
