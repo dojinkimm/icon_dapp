@@ -18,4 +18,4 @@
 > Day 5 - ICON JSON-RPC API
 > Day 6 - ICON architecture
 
-> ###Icon 웹사이트 - https://www.icondev.io
+> Icon 웹사이트 - https://www.icondev.io
