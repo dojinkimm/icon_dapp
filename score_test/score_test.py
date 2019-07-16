@@ -1,5 +1,17 @@
+'''
+tbears가 install이 안되서 deploy를 해보지 못했습니다. 
+그래서 address 주소도 예시 그대로 가지고 왔습니다.
+'''
 from iconservice import *
+
 TAG = 'ScoreTest'
+
+class InterfaceSample(InterfaceScore):
+    @interface
+    def getOnwerName(self):
+        pass
+
+
 class ScoreTest(IconScoreBase):
     _OWNER_NAME = "owner_name"
     _ARRAY_DB_SAMPLE = "array_db_sample"
@@ -67,9 +79,18 @@ class ScoreTest(IconScoreBase):
         if self.msg.value >= 10000000000000000000:
             revert("ICX amount must be lower than 10")
 
-    @external(readonly=True)
+    @external(readOnly=True)
     def getOwnerName(self) -> str:
-        return self._owner_name.get()
+        return f'{self._owner_name.get()}, {self.msg.sender}'
+
+    @external(readOnly=True)
+    def getOwnerNameInterface(self) -> str:
+        interface = self.create_interface_score(self.address), InterfaceSample)
+        return interface.getOwnerName()
+
+    @external(readOnly=True)
+    def getOwnerNameInnerFunc(self) -> str:
+        return self.getOwnerName()
 
 
 

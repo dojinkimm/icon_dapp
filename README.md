@@ -1,5 +1,8 @@
 # STUDYPIE - [ICON을 활용한 DApp 만들기 ]
 
+### 3주차 과제는 score_test directory에 있습니다.
+> tbears, iconservice가 아직도 install이 되지 않아서 실제 deploy를 하지 못했습니다.
+
 ### WEEK 1
 > Day1 - ICON에서 DAPP 만들어야 하는 이유
 > <br/>https://medium.com/b-ock-chain/icon%EC%97%90%EC%84%9C-dapp%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-ba03f75d3be9
