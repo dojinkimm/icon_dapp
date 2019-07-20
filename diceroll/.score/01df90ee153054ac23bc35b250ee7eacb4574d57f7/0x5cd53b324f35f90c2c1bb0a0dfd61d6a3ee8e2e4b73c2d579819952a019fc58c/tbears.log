@@ -1,0 +1,213 @@
+[INFO|icon_service_cli.py:132] 2019-07-20 18:53:40,986 > [LOG] start_server() start
+[INFO|icon_service_cli.py:156] 2019-07-20 18:53:40,988 > [LOG] start_process() end
+[INFO|icon_service_cli.py:115] 2019-07-20 18:53:40,989 > [IconServiceCli] start_command done!
+[INFO|icon_rpcserver_cli.py:160] 2019-07-20 18:53:41,130 > [IconRpcServerCli] check_if_process_running!
+[INFO|icon_rpcserver_cli.py:109] 2019-07-20 18:53:41,173 > [IconRpcServerCli] start_command done!
+[INFO|icon_logger_util.py:144] 2019-07-20 18:53:41,309 > ====================LOG CONFIG START====================
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,309 > [CONFIG.log.logger] > tbears
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,309 > [CONFIG.log.level] > info
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.log.filePath] > ./tbears.log
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.log.colorLog] > True
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.log.outputType] > file
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.log.rotate.type] > bytes
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.log.rotate.maxBytes] > 10485760
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.log.rotate.backupCount] > 10
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.scoreRootPath] > ./.score
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.stateDbRootPath] > ./.statedb
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.channel] > loopchain_default
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.amqpKey] > 7100
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.amqpTarget] > 127.0.0.1
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.builtinScoreOwner] > hxebf3a409845cd09dcb5af31ed5be5e34e2af9433
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.service.fee] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.service.audit] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.service.deployerWhiteList] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.service.scorePackageValidator] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.hostAddress] > 127.0.0.1
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,310 > [CONFIG.port] > 9000
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,311 > [CONFIG.genesis.nid] > 0x3
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,311 > [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,311 > [CONFIG.blockConfirmInterval] > 10
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,311 > [CONFIG.blockConfirmEmpty] > True
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,311 > [CONFIG.verbose] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,311 > [CONFIG.command] > start
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,311 > [CONFIG.config] > ./temp_conf.json
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:41,311 > [CONFIG.tbearsMode] > False
+[INFO|icon_logger_util.py:146] 2019-07-20 18:53:41,311 > ====================LOG CONFIG END======================
+[INFO|icon_service.py:60] 2019-07-20 18:53:41,569 > [IconService] ==========IconService Service params==========
+[INFO|icon_service.py:61] 2019-07-20 18:53:41,569 > [IconService] score_root_path : ./.score
+[INFO|icon_service.py:62] 2019-07-20 18:53:41,569 > [IconService] icon_score_state_db_root_path  : ./.statedb
+[INFO|icon_service.py:63] 2019-07-20 18:53:41,569 > [IconService] amqp_target  : 127.0.0.1
+[INFO|icon_service.py:64] 2019-07-20 18:53:41,569 > [IconService] amqp_key  :  7100
+[INFO|icon_service.py:65] 2019-07-20 18:53:41,569 > [IconService] icon_score_queue_name  : IconScore.loopchain_default.7100
+[INFO|icon_service.py:66] 2019-07-20 18:53:41,570 > [IconService] ==========IconService Service params==========
+[INFO|icon_inner_service.py:54] 2019-07-20 18:53:41,570 > [IconInnerService] icon_score_service open
+[INFO|icx_engine.py:171] 2019-07-20 18:53:41,646 > [IconService_Icx] total_supply: 0
+[INFO|icon_service.py:50] 2019-07-20 18:53:41,844 > [IconService] Start IconService Service serve!
+[INFO|icon_logger_util.py:144] 2019-07-20 18:53:42,002 > ====================LOG CONFIG START====================
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,002 > [CONFIG.hostAddress] > 127.0.0.1
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,002 > [CONFIG.port] > 9000
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,002 > [CONFIG.scoreRootPath] > ./.score
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,002 > [CONFIG.stateDbRootPath] > ./.statedb
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,002 > [CONFIG.log.logger] > tbears
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,002 > [CONFIG.log.level] > info
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,002 > [CONFIG.log.filePath] > ./tbears.log
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,002 > [CONFIG.log.colorLog] > True
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,002 > [CONFIG.log.outputType] > file
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,002 > [CONFIG.log.rotate.type] > bytes
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,002 > [CONFIG.log.rotate.maxBytes] > 10485760
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.log.rotate.backupCount] > 10
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.service.fee] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.service.audit] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.service.deployerWhiteList] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.genesis.nid] > 0x3
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.channel] > loopchain_default
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.amqpKey] > 7100
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.amqpTarget] > 127.0.0.1
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.blockConfirmInterval] > 10
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.blockConfirmEmpty] > True
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,003 > [CONFIG.config] > ./tbears_server_config.json
+[INFO|icon_logger_util.py:146] 2019-07-20 18:53:42,003 > ====================LOG CONFIG END======================
+[INFO|block_manager.py:81] 2019-07-20 18:53:42,094 > [tbears_block_manager] ==========tbears block_manager params==========
+[INFO|block_manager.py:82] 2019-07-20 18:53:42,094 > [tbears_block_manager] amqp_target : 127.0.0.1
+[INFO|block_manager.py:83] 2019-07-20 18:53:42,095 > [tbears_block_manager] amqp_key    : 7100
+[INFO|block_manager.py:84] 2019-07-20 18:53:42,095 > [tbears_block_manager] queue_name  : Channel.loopchain_default.7100
+[INFO|block_manager.py:85] 2019-07-20 18:53:42,095 > [tbears_block_manager]             : ChannelTxCreator.loopchain_default.7100
+[INFO|block_manager.py:86] 2019-07-20 18:53:42,095 > [tbears_block_manager]             : IconScore.loopchain_default.7100
+[INFO|block_manager.py:87] 2019-07-20 18:53:42,095 > [tbears_block_manager] ==========tbears block_manager params==========
+[INFO|icon_logger_util.py:144] 2019-07-20 18:53:42,224 > ====================LOG CONFIG START====================
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,224 > [CONFIG.log.logger] > tbears
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,224 > [CONFIG.log.level] > info
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,225 > [CONFIG.log.filePath] > ./tbears.log
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,225 > [CONFIG.log.colorLog] > True
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,225 > [CONFIG.log.outputType] > file
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,225 > [CONFIG.log.rotate.type] > bytes
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,225 > [CONFIG.log.rotate.maxBytes] > 10485760
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,225 > [CONFIG.log.rotate.backupCount] > 10
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,225 > [CONFIG.channel] > loopchain_default
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,225 > [CONFIG.port] > 9000
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,225 > [CONFIG.portDiffRestServiceContainer] > 1900
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,225 > [CONFIG.amqpKey] > 7100
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.amqpTarget] > 127.0.0.1
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.gunicornWorkerCount] > 9
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.disableV1Api] > True
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.restSslType] > 0
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.ipLocal] > 127.0.0.1
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.grpcTimeout] > 30
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.grpcRetry] > 5
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.restAdditionalTimeout] > 30
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,226 > [CONFIG.scoreQueryTimeout] > 120
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.wsHeartBeatTime] > 30
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.requestMaxSize] > 2097152
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.hostAddress] > 127.0.0.1
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.scoreRootPath] > ./.score
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.stateDbRootPath] > ./.statedb
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.service.fee] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.service.audit] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.service.deployerWhiteList] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.genesis.nid] > 0x3
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.genesis.accounts] > [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.blockConfirmInterval] > 10
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.blockConfirmEmpty] > True
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.verbose] > False
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.command] > start
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.config] > ./temp_conf.json
+[INFO|icon_logger_util.py:153] 2019-07-20 18:53:42,227 > [CONFIG.tbearsMode] > True
+[INFO|icon_logger_util.py:146] 2019-07-20 18:53:42,227 > ====================LOG CONFIG END======================
+[INFO|icon_inner_service.py:66] 2019-07-20 18:53:42,337 > [IconInnerService] icon_score_hello
+[INFO|icon_inner_service.py:82] 2019-07-20 18:53:42,344 > [IconInnerService] invoke request with {'transactions': [{'method': '', 'params': {'txHash': '685cf62751cef607271ed7190b6a707405c5b07ec0830156e748c0c2ea4a2cfe', 'timestamp': '0x58e19d16b2949'}, 'genesisData': {'nid': '0x3', 'accounts': [{'name': 'genesis', 'address': 'hx0000000000000000000000000000000000000000', 'balance': '0x2961fff8ca4a62327800000'}, {'name': 'fee_treasury', 'address': 'hx1000000000000000000000000000000000000000', 'balance': '0x0'}, {'name': 'test1', 'address': 'hxe7af5fcfd8dfc67530a01a0e403882687528dfcb', 'balance': '0x2961fff8ca4a62327800000'}]}}], 'block': {'blockHeight': '0x0', 'blockHash': 'f5589fc4852c8728baa589ac2592b1d434cb4b84fa62f2b980d7816432648de1', 'timestamp': '0x58e19d16b2949'}}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:53:42,346 > [IconInnerService] invoke response with {'txResults': {'685cf62751cef607271ed7190b6a707405c5b07ec0830156e748c0c2ea4a2cfe': {'txHash': '685cf62751cef607271ed7190b6a707405c5b07ec0830156e748c0c2ea4a2cfe', 'blockHeight': '0x0', 'blockHash': 'f5589fc4852c8728baa589ac2592b1d434cb4b84fa62f2b980d7816432648de1', 'txIndex': '0x0', 'stepUsed': '0x0', 'stepPrice': '0x0', 'cumulativeStepUsed': '0x0', 'status': '0x1'}}, 'stateRootHash': 'bca45882a67284e753546443b22611f827fc81b9b7c08ffce87378f9e765cad6'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:53:42,348 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x0', 'blockHash': 'f5589fc4852c8728baa589ac2592b1d434cb4b84fa62f2b980d7816432648de1'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:53:42,349 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|block_manager.py:70] 2019-07-20 18:53:42,351 > [tbears_block_manager] tbears block_manager service started!
+[INFO|icon_inner_service.py:82] 2019-07-20 18:53:52,354 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x1', 'blockHash': '09de66515b2964c024ed77bff1b6501d3f927d870c0e55f9d934cc2dcc0b4d60', 'prevBlockHash': 'f5589fc4852c8728baa589ac2592b1d434cb4b84fa62f2b980d7816432648de1', 'timestamp': '0x58e19d203eeb8'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:53:52,355 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:53:52,358 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x2', 'blockHash': '09de66515b2964c024ed77bff1b6501d3f927d870c0e55f9d934cc2dcc0b4d60'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:53:52,359 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:54:02,360 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x2', 'blockHash': '9209d6ff87c3cd737365334eb301ae3143106d9f4a4c28540f74afc38d2c1351', 'prevBlockHash': '09de66515b2964c024ed77bff1b6501d3f927d870c0e55f9d934cc2dcc0b4d60', 'timestamp': '0x58e19d29c8dfa'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:54:02,360 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:54:02,363 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x3', 'blockHash': '9209d6ff87c3cd737365334eb301ae3143106d9f4a4c28540f74afc38d2c1351'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:54:02,363 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:54:12,358 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x3', 'blockHash': 'cb77c516eb7665a78f1da75efd41e226d28c49ce8b5f6a5a01a95e63aed3edde', 'prevBlockHash': '9209d6ff87c3cd737365334eb301ae3143106d9f4a4c28540f74afc38d2c1351', 'timestamp': '0x58e19d3352a3a'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:54:12,358 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:54:12,361 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x4', 'blockHash': 'cb77c516eb7665a78f1da75efd41e226d28c49ce8b5f6a5a01a95e63aed3edde'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:54:12,361 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:54:22,359 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x4', 'blockHash': '7ed3ef5af4f0dd91bd55985546f92ba4c1432287d5d97ff763c30a0df56ec2f7', 'prevBlockHash': 'cb77c516eb7665a78f1da75efd41e226d28c49ce8b5f6a5a01a95e63aed3edde', 'timestamp': '0x58e19d3cdc3e8'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:54:22,360 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:54:22,362 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x5', 'blockHash': '7ed3ef5af4f0dd91bd55985546f92ba4c1432287d5d97ff763c30a0df56ec2f7'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:54:22,363 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:54:32,359 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x5', 'blockHash': '0acc4d139d092d9503119892649ff4b4251a18f819ac589283e50ad08767e4b7', 'prevBlockHash': '7ed3ef5af4f0dd91bd55985546f92ba4c1432287d5d97ff763c30a0df56ec2f7', 'timestamp': '0x58e19d4665ccb'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:54:32,366 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:54:32,369 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x6', 'blockHash': '0acc4d139d092d9503119892649ff4b4251a18f819ac589283e50ad08767e4b7'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:54:32,370 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:54:42,361 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x6', 'blockHash': '617d5cc76d741bb288a9aad91b3408b6df985dbf18cf434e0fea35464110ad50', 'prevBlockHash': '0acc4d139d092d9503119892649ff4b4251a18f819ac589283e50ad08767e4b7', 'timestamp': '0x58e19d4fef9ba'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:54:42,367 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:54:42,371 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x7', 'blockHash': '617d5cc76d741bb288a9aad91b3408b6df985dbf18cf434e0fea35464110ad50'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:54:42,372 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:54:52,361 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x7', 'blockHash': '9c20ced4689eb9deb322411a0d18461d0fc02ae2fed91ae6ffc83f54e6cbed50', 'prevBlockHash': '617d5cc76d741bb288a9aad91b3408b6df985dbf18cf434e0fea35464110ad50', 'timestamp': '0x58e19d5979225'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:54:52,362 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:54:52,364 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x8', 'blockHash': '9c20ced4689eb9deb322411a0d18461d0fc02ae2fed91ae6ffc83f54e6cbed50'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:54:52,365 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:55:02,363 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x8', 'blockHash': '9c793b13250e29ae7097e787c6c8f9fc3b9e3c1d9532282d3e4270f43da7ff4a', 'prevBlockHash': '9c20ced4689eb9deb322411a0d18461d0fc02ae2fed91ae6ffc83f54e6cbed50', 'timestamp': '0x58e19d63032a2'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:55:02,364 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:55:02,366 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x9', 'blockHash': '9c793b13250e29ae7097e787c6c8f9fc3b9e3c1d9532282d3e4270f43da7ff4a'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:55:02,368 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:55:12,365 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x9', 'blockHash': '6cec492430493ae6c0138abd3d7ad322c82941c9771d3571f55f9b5e5e51bd1e', 'prevBlockHash': '9c793b13250e29ae7097e787c6c8f9fc3b9e3c1d9532282d3e4270f43da7ff4a', 'timestamp': '0x58e19d6c8cd7d'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:55:12,365 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:55:12,368 > [IconInnerService] write_precommit_state request with {'blockHeight': '0xa', 'blockHash': '6cec492430493ae6c0138abd3d7ad322c82941c9771d3571f55f9b5e5e51bd1e'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:55:12,368 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:55:22,371 > [IconInnerService] invoke request with {'block': {'blockHeight': '0xa', 'blockHash': 'de66b63c4933e58cf7aa479e46ad1d98f0da12a63c5dd80a3b8d65c07f3427f1', 'prevBlockHash': '6cec492430493ae6c0138abd3d7ad322c82941c9771d3571f55f9b5e5e51bd1e', 'timestamp': '0x58e19d7617a01'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:55:22,372 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:55:22,375 > [IconInnerService] write_precommit_state request with {'blockHeight': '0xb', 'blockHash': 'de66b63c4933e58cf7aa479e46ad1d98f0da12a63c5dd80a3b8d65c07f3427f1'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:55:22,375 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:55:32,371 > [IconInnerService] invoke request with {'block': {'blockHeight': '0xb', 'blockHash': 'a65cc5d3c63fb13e4cc87b2954405f7e35d4e9faa011678e715cddcb2e2268e1', 'prevBlockHash': 'de66b63c4933e58cf7aa479e46ad1d98f0da12a63c5dd80a3b8d65c07f3427f1', 'timestamp': '0x58e19d7fa130a'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:55:32,372 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:55:32,375 > [IconInnerService] write_precommit_state request with {'blockHeight': '0xc', 'blockHash': 'a65cc5d3c63fb13e4cc87b2954405f7e35d4e9faa011678e715cddcb2e2268e1'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:55:32,376 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:55:42,376 > [IconInnerService] invoke request with {'block': {'blockHeight': '0xc', 'blockHash': 'b1dc5ad94f5daff8c09facdd627ebaa9a4a3ce10340dc3cd811e3d5c4e1cc82b', 'prevBlockHash': 'a65cc5d3c63fb13e4cc87b2954405f7e35d4e9faa011678e715cddcb2e2268e1', 'timestamp': '0x58e19d892bcc1'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:55:42,377 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:55:42,379 > [IconInnerService] write_precommit_state request with {'blockHeight': '0xd', 'blockHash': 'b1dc5ad94f5daff8c09facdd627ebaa9a4a3ce10340dc3cd811e3d5c4e1cc82b'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:55:42,380 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:55:52,381 > [IconInnerService] invoke request with {'block': {'blockHeight': '0xd', 'blockHash': 'c760170d29b96a124bfe4830f1511054dcf78acd7d2521a3758daada250b20da', 'prevBlockHash': 'b1dc5ad94f5daff8c09facdd627ebaa9a4a3ce10340dc3cd811e3d5c4e1cc82b', 'timestamp': '0x58e19d92b6533'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:55:52,381 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:55:52,384 > [IconInnerService] write_precommit_state request with {'blockHeight': '0xe', 'blockHash': 'c760170d29b96a124bfe4830f1511054dcf78acd7d2521a3758daada250b20da'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:55:52,384 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:56:02,382 > [IconInnerService] invoke request with {'block': {'blockHeight': '0xe', 'blockHash': 'aef9034f9bf00dd06b76122051e6cd3fa0e47eb9ba04a97db958b4c5d3e10d88', 'prevBlockHash': 'c760170d29b96a124bfe4830f1511054dcf78acd7d2521a3758daada250b20da', 'timestamp': '0x58e19d9c3ffff'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:56:02,382 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:56:02,385 > [IconInnerService] write_precommit_state request with {'blockHeight': '0xf', 'blockHash': 'aef9034f9bf00dd06b76122051e6cd3fa0e47eb9ba04a97db958b4c5d3e10d88'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:56:02,385 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:56:12,388 > [IconInnerService] invoke request with {'block': {'blockHeight': '0xf', 'blockHash': 'af2eaeb512f037cd8313ce154fd5706d0aa07fff4b9a8518e7dd7da2167de021', 'prevBlockHash': 'aef9034f9bf00dd06b76122051e6cd3fa0e47eb9ba04a97db958b4c5d3e10d88', 'timestamp': '0x58e19da5cac4c'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:56:12,388 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:56:12,392 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x10', 'blockHash': 'af2eaeb512f037cd8313ce154fd5706d0aa07fff4b9a8518e7dd7da2167de021'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:56:12,398 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:56:22,390 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x10', 'blockHash': 'e08b6b7bafabd1fa87034ce5c125afde2f5233b4c0c5d64feb7dc1e534cdf21e', 'prevBlockHash': 'af2eaeb512f037cd8313ce154fd5706d0aa07fff4b9a8518e7dd7da2167de021', 'timestamp': '0x58e19daf54bf6'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:56:22,391 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:56:22,393 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x11', 'blockHash': 'e08b6b7bafabd1fa87034ce5c125afde2f5233b4c0c5d64feb7dc1e534cdf21e'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:56:22,394 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:56:32,390 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x11', 'blockHash': '3f6ddf5d0eb004fab5d600fddd24b4ced4deab9fc3207885a396b8fa90f210a4', 'prevBlockHash': 'e08b6b7bafabd1fa87034ce5c125afde2f5233b4c0c5d64feb7dc1e534cdf21e', 'timestamp': '0x58e19db8de3ee'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:56:32,392 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:56:32,394 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x12', 'blockHash': '3f6ddf5d0eb004fab5d600fddd24b4ced4deab9fc3207885a396b8fa90f210a4'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:56:32,395 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:56:42,393 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x12', 'blockHash': 'c9f4e8e853685ae5c860f201b91d381546a2a7aaeea3eba32fdb14d0b209e970', 'prevBlockHash': '3f6ddf5d0eb004fab5d600fddd24b4ced4deab9fc3207885a396b8fa90f210a4', 'timestamp': '0x58e19dc26821f'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:56:42,394 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:56:42,396 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x13', 'blockHash': 'c9f4e8e853685ae5c860f201b91d381546a2a7aaeea3eba32fdb14d0b209e970'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:56:42,397 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:56:52,398 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x13', 'blockHash': '636acf9f0d30448ba89456238bb2e71f818d4d286ec0ed69b59f11f7b4a3d1c5', 'prevBlockHash': 'c9f4e8e853685ae5c860f201b91d381546a2a7aaeea3eba32fdb14d0b209e970', 'timestamp': '0x58e19dcbf2dd3'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:56:52,400 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:56:52,403 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x14', 'blockHash': '636acf9f0d30448ba89456238bb2e71f818d4d286ec0ed69b59f11f7b4a3d1c5'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:56:52,404 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:57:02,402 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x14', 'blockHash': '123beac95d00e5847bcca961ac5218ef36b5546773ea79751b48a6e82b9b80a0', 'prevBlockHash': '636acf9f0d30448ba89456238bb2e71f818d4d286ec0ed69b59f11f7b4a3d1c5', 'timestamp': '0x58e19dd57d2ab'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:57:02,403 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:57:02,405 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x15', 'blockHash': '123beac95d00e5847bcca961ac5218ef36b5546773ea79751b48a6e82b9b80a0'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:57:02,406 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:57:12,402 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x15', 'blockHash': '5f6408fefe12d154077f66c256533ba8339c9b637db6d9eee265a95fd51f418c', 'prevBlockHash': '123beac95d00e5847bcca961ac5218ef36b5546773ea79751b48a6e82b9b80a0', 'timestamp': '0x58e19ddf06b68'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:57:12,404 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:57:12,408 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x16', 'blockHash': '5f6408fefe12d154077f66c256533ba8339c9b637db6d9eee265a95fd51f418c'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:57:12,408 > [IconInnerService] write_precommit_state response with 0x0
+[INFO|icon_inner_service.py:82] 2019-07-20 18:57:22,403 > [IconInnerService] invoke request with {'block': {'blockHeight': '0x16', 'blockHash': '43a929a1481bc8fd4196b3cbcae94e5320f4608aa56ed65e89aeab9ef03846f4', 'prevBlockHash': '5f6408fefe12d154077f66c256533ba8339c9b637db6d9eee265a95fd51f418c', 'timestamp': '0x58e19de89069d'}, 'transactions': []}
+[INFO|icon_inner_service.py:121] 2019-07-20 18:57:22,403 > [IconInnerService] invoke response with {'txResults': {}, 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a'}
+[INFO|icon_inner_service.py:164] 2019-07-20 18:57:22,406 > [IconInnerService] write_precommit_state request with {'blockHeight': '0x17', 'blockHash': '43a929a1481bc8fd4196b3cbcae94e5320f4608aa56ed65e89aeab9ef03846f4'}
+[INFO|icon_inner_service.py:200] 2019-07-20 18:57:22,406 > [IconInnerService] write_precommit_state response with 0x0
