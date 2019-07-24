@@ -83,10 +83,10 @@ class ScoreTest(IconScoreBase):
     def getOwnerName(self) -> str:
         return f'{self._owner_name.get()}, {self.msg.sender}'
 
-    @external(readOnly=True)
-    def getOwnerNameInterface(self) -> str:
-        interface = self.create_interface_score(self.address), InterfaceSample)
-        return interface.getOwnerName()
+    # @external(readOnly=True)
+    # def getOwnerNameInterface(self) -> str:
+    #     interface = self.create_interface_score(self.address), InterfaceSample)
+    #     return interface.getOwnerName()
 
     @external(readOnly=True)
     def getOwnerNameInnerFunc(self) -> str:

@@ -3,7 +3,7 @@ from .customized_class import DataHandlingClass
 
 TAG = 'DataHandling'
 
-class CubeGame(IconScoreBase):
+class DataHandling(IconScoreBase):
 
     def __init__(self, db: IconScoreDatabase):
         super().__init__(db)
